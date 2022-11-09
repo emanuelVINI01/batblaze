@@ -10,6 +10,6 @@
   },
   "type": "module",
   "scripts": {
-    "run": "node main.js"
+    "start": "node main.js"
   }
 }
