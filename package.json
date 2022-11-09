@@ -8,5 +8,8 @@
     "node-telegram-bot-api": "^0.60.0",
     "quick.db": "^9.0.6"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "run": "node main.js"
+  }
 }
