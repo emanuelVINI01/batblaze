@@ -74,6 +74,7 @@ export default class Double {
             }
         } catch (ex) {
             this.spinsUpdate()
+            console.log(ex)
         }
     }
 
