@@ -73,7 +73,7 @@ export default class Double {
                 this.db.push("doubleSpins", this.history[0])
             }
         } catch (ex) {
-            this.spinsUpdate()
+            //this.spinsUpdate()
             console.log(ex)
         }
     }
@@ -196,9 +196,10 @@ export default class Double {
         this.bot = bot;
         this.db = new QuickDB()
         this.syncData()
+        this.spinsUpdate()
         setInterval(() => {
             this.statusCheck()
-            this.spinsUpdate()
+            
            
             this.db.set("doubleWins", this.wins)
             this.db.set("doubleLoss", this.losses)
