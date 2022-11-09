@@ -64,7 +64,9 @@ export default class Double {
         try {
             const req = await axios.get("https://blaze.com/api/roulette_games/recent")
             const update = req.data
+            console.log(update)
             if (this.history.length == 0 || update[0].id != this.history[0].id) {
+                
                 this.history = update
                 this.findSignal()
                 this.signalSync()
