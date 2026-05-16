@@ -4,7 +4,7 @@ Repositório preservado como parte do histórico técnico público do desenvolve
 
 ## Stack identificada
 
-JavaScript, KSP, Node.js
+JavaScript, Node.js
 
 ## Leitura do repositório
 
